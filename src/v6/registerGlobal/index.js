@@ -1,7 +1,7 @@
 import meta from "./meta.js";
 
 const registerGlobal = ({ spec, tags, tagsSchema, definitions }) => {
-    if (typeof globalThis === "undefined" || !definition) return;
+    if (typeof globalThis === "undefined" || !spec || !tags || !tagsSchema || !definitions) return;
 
     globalThis.ks ??= {};
     globalThis.ks.specs ??= {};

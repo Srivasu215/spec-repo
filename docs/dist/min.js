@@ -861,7 +861,7 @@ var e = {
 	name: "json-transformer-funcs-primitive",
 	version: "1.9.1"
 }, a = ({ spec: e, tags: t, tagsSchema: n, definitions: r }) => {
-	typeof globalThis < "u" && definition && (globalThis.ks ??= {}, globalThis.ks.specs ??= {}, globalThis.ks.specs.jsonFiles = {
+	typeof globalThis < "u" && e && t && n && r && (globalThis.ks ??= {}, globalThis.ks.specs ??= {}, globalThis.ks.specs.jsonFiles = {
 		meta: i,
 		spec: e,
 		tags: t,
