@@ -857,5 +857,22 @@ var e = {
 			}]
 		}]
 	} }
-}, i = e;
-export { i as default, r as definitions, e as spec, t as tags, n as tagsSchema };
+}, i = {
+	name: "json-transformer-funcs-primitive",
+	version: "1.9.1"
+}, a = ({ spec: e, tags: t, tagsSchema: n, definitions: r }) => {
+	typeof globalThis < "u" && definition && (globalThis.ks ??= {}, globalThis.ks.specs ??= {}, globalThis.ks.specs.jsonFiles = {
+		meta: i,
+		spec: e,
+		tags: t,
+		tagsSchema: n,
+		definitions: r
+	});
+}, o = e;
+a({
+	spec: e,
+	tags: t,
+	tagsSchema: n,
+	definitions: r
+});
+export { o as default, r as definitions, e as spec, t as tags, n as tagsSchema };
