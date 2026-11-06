@@ -858,8 +858,8 @@ var e = {
 		}]
 	} }
 }, i = {
-	name: "json-transformer-funcs-primitive",
-	version: "1.9.1"
+	name: "spec-repo",
+	version: "1.6.1"
 }, a = ({ spec: e, tags: t, tagsSchema: n, definitions: r }) => {
 	typeof globalThis < "u" && e && t && n && r && (globalThis.ks ??= {}, globalThis.ks.specs ??= {}, globalThis.ks.specs.jsonFiles = {
 		meta: i,

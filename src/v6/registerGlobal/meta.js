@@ -1,6 +1,6 @@
 export const meta = {
-    name: "json-transformer-funcs-primitive",
-    version: "1.9.1"
+    name: "spec-repo",
+    version: "1.6.1"
 };
 
 export default meta;
