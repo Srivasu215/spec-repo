@@ -21,6 +21,7 @@
     "src"
   ],
   "scripts": {
+    "build": "npx @keshavsoft/build-cli"
   },
   "repository": {
     "type": "git",
